@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8406C0FA1AAF4641001B85D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C0F91AAF4641001B85D4 /* main.swift */; };
+		8406C1011AAF468D001B85D4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1001AAF468D001B85D4 /* Account.swift */; };
+		8406C1031AAF4F91001B85D4 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1021AAF4F91001B85D4 /* ATM.swift */; };
+		8406C1051AAF544A001B85D4 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1041AAF544A001B85D4 /* Screen.swift */; };
+		8406C1071AAF5744001B85D4 /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1061AAF5744001B85D4 /* Keypad.swift */; };
+		8406C1091AAF5787001B85D4 /* CashDispenser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1081AAF5786001B85D4 /* CashDispenser.swift */; };
+		8406C10B1AAF5826001B85D4 /* DepositSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406C10A1AAF5826001B85D4 /* DepositSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		8406C0F61AAF4641001B85D4 /* Second_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Second_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406C0F91AAF4641001B85D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8406C1001AAF468D001B85D4 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		8406C1021AAF4F91001B85D4 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		8406C1041AAF544A001B85D4 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		8406C1061AAF5744001B85D4 /* Keypad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		8406C1081AAF5786001B85D4 /* CashDispenser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDispenser.swift; sourceTree = "<group>"; };
+		8406C10A1AAF5826001B85D4 /* DepositSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				8406C0F91AAF4641001B85D4 /* main.swift */,
+				8406C1001AAF468D001B85D4 /* Account.swift */,
+				8406C1021AAF4F91001B85D4 /* ATM.swift */,
+				8406C1041AAF544A001B85D4 /* Screen.swift */,
+				8406C1061AAF5744001B85D4 /* Keypad.swift */,
+				8406C1081AAF5786001B85D4 /* CashDispenser.swift */,
+				8406C10A1AAF5826001B85D4 /* DepositSlot.swift */,
 			);
 			path = Second_Demo;
 			sourceTree = "<group>";
@@ -118,7 +136,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8406C1091AAF5787001B85D4 /* CashDispenser.swift in Sources */,
+				8406C1031AAF4F91001B85D4 /* ATM.swift in Sources */,
 				8406C0FA1AAF4641001B85D4 /* main.swift in Sources */,
+				8406C10B1AAF5826001B85D4 /* DepositSlot.swift in Sources */,
+				8406C1011AAF468D001B85D4 /* Account.swift in Sources */,
+				8406C1071AAF5744001B85D4 /* Keypad.swift in Sources */,
+				8406C1051AAF544A001B85D4 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

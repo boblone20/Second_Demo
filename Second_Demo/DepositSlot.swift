@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  DepositSlot.swift
 //  Second_Demo
 //
 //  Created by Local Admin on 2015-03-10.
@@ -8,10 +8,7 @@
 
 import Foundation
 
-println("Testing")
-let theATM = ATM()
-theATM.run()
-
-
-
-
+public class DepositSlot
+{
+    
+}
